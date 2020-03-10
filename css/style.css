@@ -189,3 +189,41 @@ a {
   text-align: justify;
   width: 560px;
 }
+
+/*footer style*/
+#footer {
+  background: #8A795D;
+  margin: 0;
+  padding: 36px 9 42px;
+}
+
+#footer div {
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+  width: 960px;
+  padding: 40px 0 40px;
+}
+
+#footer div p, #footer div p a {
+  color: white;
+	display: block;
+	font-size: 15px;
+	font-weight: normal;
+  margin: 0;
+  padding: 0 0 10px;
+	text-align: center;
+	text-transform: none
+}
+
+#footer div.connect {
+  text-align: center;
+}
+
+#footer div.connect a {
+  font-size: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:white;
+  padding: 0 20px;
+  font-weight: bold;
+}
