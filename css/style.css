@@ -262,7 +262,6 @@ a {
 }
 #body div.header div h1 {
 	color: #FFFFFF;
-	font-family: lato-regular-webfont;
 	font-size: 30px;
 	font-weight: normal;
 	line-height: 30px;
@@ -313,7 +312,6 @@ a {
 }
 #body div.side-wrapper div h1 {
 	color: #CB3362;
-	font-family: lato-regular-webfont;
 	font-size: 24px;
 	font-weight: normal;
 	line-height: 24px;
@@ -334,7 +332,6 @@ a {
 	border: 1px solid #B6ADB0;
 	color: #7A6666;
 	display: block;
-	font-family: lato-regular-webfont;
 	font-size: 14px;
 	font-weight: normal;
 	height: 38px;
@@ -350,7 +347,6 @@ a {
 	border: 1px solid #B6ADB0;
 	color: #7A6666;
 	display: block;
-	font-family: lato-regular-webfont;
 	font-size: 14px;
 	font-weight: normal;
 	height: 270px;
@@ -369,7 +365,6 @@ a {
 	color: #a5838e;
 	cursor: pointer;
 	display: block;
-	font-family: lato-bold-webfont;
 	font-size: 16px;
 	font-weight: normal;
 	height: 40px;
@@ -381,7 +376,7 @@ a {
 	width: 141px;
 }
 #body div.side-wrapper .contact form input#submit:hover {
-	background-color: #c8c10d;
+	background-color: #19D17B;
 	border: none;
 	height: 40px;
 	width: 141px;
