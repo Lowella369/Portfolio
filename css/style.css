@@ -163,8 +163,8 @@ a {
   max-width: 960px;
   overflow: hidden;
   padding: 0;
-  padding: 30px 30px 20px;
-  width: 560px;
+  padding: 20px 30px 20px;
+  width: 100%;
 }
 
 #body div.section div h2 {
@@ -189,9 +189,9 @@ a {
   font-weight: normal;
   line-height: 24px;
   margin: 0;
-  padding: 0;
+  padding: 0px;
   text-align: justify;
-  width: 560px;
+  width: 100%;
 }
 
 /*about page body style*/
@@ -422,7 +422,7 @@ a {
 }
 
 /*for small devices*/
-@media screen and (max-width: 768px){
+@media only screen and (max-width : 918px){
 	/* Show Hamburger */
   #nav label {
     display: inline-block;
@@ -472,7 +472,7 @@ a {
     color: #fff;
     display: block;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: normal;
     height: 49px;
     line-height: 49px;
@@ -493,6 +493,98 @@ a {
     margin: 0;
     position: relative;
     width: 100%;
+  }
+
+  img {
+		max-width: 100%;
+  }
+  
+	body #page {
+		margin: 0;
+		overflow: hidden;
+		padding: 0;
+		width: auto;
+  }
+  
+  #body {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+  }
+  
+  #body div.section div {
+		margin: 0 auto;
+		max-width: none;
+		width: 90%;
+	}
+  
+  #body div.section div p {
+    width: 100%;
+  }
+  
+  
+  #body > div {
+    padding: 0 5%;
+    width: 90%;
+  }
+  #body > div img {
+    margin: 24px 0 30px;
+    width: 98%
+  }
+  #body > div .article {
+    padding: 0;
+    width: 100%;
+  }
+
+  #body > div .article p {
+    width: 100%;
+  }
+  
+	#footer div {
+		margin: 0 auto;
+		width: 90%;
+  }
+  
+  #body div.side-wrapper {
+		margin: 0;
+		max-width: none;
+		overflow: hidden;
+		padding: 0 0 0;
+		width: 100%;
+	}
+	#body div.side-wrapper div.sidebar {
+		float: none;
+		margin: 10% auto 0;
+		padding: 36px 0 34px;
+		width: 90%;
+	}
+	#body div.side-wrapper div.contact {
+		float: none;
+		margin: 0 auto;
+		padding: 8% 0 0 0;
+		width: 90%;
+  }
+  
+  
+	#body div.side-wrapper .contact form {
+		margin: 0;
+		overflow: hidden;
+		padding: 0 0 20px 0;
+		width: 100%;
+	}
+	#body div.side-wrapper .contact form input, #body div.side-wrapper .contact form textarea {
+		-webkit-appearance: none;
+		border-radius: 0;
+		margin: 0 auto 8px;
+		width: 90%;
+	}
+	#body div.side-wrapper .contact form input#submit {
+		-webkit-appearance: none;
+    margin: 0 0 0 4%;
+  }
+  
+  #body div.container {
+    display: none;
   }
 }
 
