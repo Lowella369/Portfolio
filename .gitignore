@@ -2,4 +2,4 @@
 *.jpg
 
 #Ignore all doc files
-.docx
+*.docx
