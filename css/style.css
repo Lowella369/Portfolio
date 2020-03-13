@@ -123,7 +123,7 @@ a {
 
 #body div.bg-header div {
   left: 50%;
-  margin-left: -150px;
+  margin-left: -400px;
   margin-top: -300px;
   padding: 0 0 0 470px;
   position: absolute;
@@ -255,11 +255,13 @@ a {
 	overflow: hidden;
 	padding: 0;
 }
+
 #body div.header div {
 	margin: 0 auto;
 	max-width: 960px;
 	padding: 0;
 }
+
 #body div.header div h1 {
 	color: #FFFFFF;
 	font-size: 30px;
@@ -270,6 +272,7 @@ a {
 	text-align: center;
 	text-transform: uppercase;
 }
+
 #body div.container {
 	background-color: #ebebed;
 	margin: 0;
@@ -286,6 +289,7 @@ a {
 	overflow: hidden;
 	padding: 90px 0 110px;
 }
+
 #body div.side-wrapper div.sidebar {
 	background-color: #EFEDEE;
 	float: left;
@@ -302,6 +306,7 @@ a {
 	text-align: center;
 	width: 193px;
 }
+
 #body div.side-wrapper div.sidebar h2 {
 	display: block;
 	line-height: 48px;
@@ -310,6 +315,7 @@ a {
   width: 169px;
   color: #CB3362;
 }
+
 #body div.side-wrapper div h1 {
 	color: #CB3362;
 	font-size: 24px;
@@ -327,6 +333,7 @@ a {
 	padding: 0 0 0 50px;
 	width: 560px;
 }
+
 #body div.side-wrapper .contact form input {
 	background: none;
 	border: 1px solid #B6ADB0;
@@ -342,6 +349,7 @@ a {
   width: 548px;
   text-transform: uppercase;
 }
+
 #body div.side-wrapper .contact form textarea {
 	background: none;
 	border: 1px solid #B6ADB0;
@@ -359,6 +367,7 @@ a {
   width: 548px;
   text-transform: uppercase;
 }
+
 #body div.side-wrapper .contact form input#submit {
 	background: none;
 	border: 2px solid #c5abb4;
@@ -375,6 +384,7 @@ a {
 	text-transform: uppercase;
 	width: 141px;
 }
+
 #body div.side-wrapper .contact form input#submit:hover {
 	background-color: #19D17B;
 	border: none;
@@ -422,7 +432,7 @@ a {
 }
 
 /*for small devices*/
-@media only screen and (max-width : 918px){
+@media only screen and (max-width : 1024px){
 	/* Show Hamburger */
   #nav label {
     display: inline-block;
@@ -551,13 +561,15 @@ a {
 		overflow: hidden;
 		padding: 0 0 0;
 		width: 100%;
-	}
+  }
+  
 	#body div.side-wrapper div.sidebar {
 		float: none;
 		margin: 10% auto 0;
 		padding: 36px 0 34px;
 		width: 90%;
-	}
+  }
+  
 	#body div.side-wrapper div.contact {
 		float: none;
 		margin: 0 auto;
@@ -565,19 +577,20 @@ a {
 		width: 90%;
   }
   
-  
 	#body div.side-wrapper .contact form {
 		margin: 0;
 		overflow: hidden;
 		padding: 0 0 20px 0;
 		width: 100%;
-	}
+  }
+  
 	#body div.side-wrapper .contact form input, #body div.side-wrapper .contact form textarea {
 		-webkit-appearance: none;
 		border-radius: 0;
 		margin: 0 auto 8px;
 		width: 90%;
-	}
+  }
+  
 	#body div.side-wrapper .contact form input#submit {
 		-webkit-appearance: none;
     margin: 0 0 0 4%;
@@ -586,5 +599,93 @@ a {
   #body div.container {
     display: none;
   }
+
+  #body div.bg-header {
+    overflow: hidden;
+  }
+
+  #body div.bg-header div {
+    left: 0;
+    margin: 0;
+    padding: 0 2px;
+    position: absolute;
+    top: 0;
+    text-align: left;
+    width: 96%;
+    margin-left: -150px;
+  }
+
+  #body div.bg-header div span {
+    display: block;
+    font-size: 14px;
+  }
+
+  #body div.bg-header h1 {
+    display: inline-block;
+    color: #e1e1e1;
+    font-family: Myriad Pro, sans-serif;
+    font-size: 40px;
+    font-weight: 30px;
+    text-transform: uppercase;
+    text-shadow: 6px 1px 1px #606163;
+    margin-bottom: 0px;
+  }
+
+  #body div.bg-header div span {
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    padding: 2px;
+    text-shadow: 2px 1px 1px #558822;
+    margin-bottom: 0px;
+  }
+
 }
 
+@media only screen and (max-width : 1280) {
+  
+  #body div.bg-header {
+    overflow: hidden;
+  }
+  
+  #body div.bg-header div {
+    left: 0;
+    margin: 0;
+    padding: 0 2px;
+    position: absolute;
+    top: 0;
+    text-align: left;
+    width: 96%;
+  }
+
+  #body div.bg-header h1 {
+    display: inline-block;
+    color: #e1e1e1;
+    font-family: Myriad Pro, sans-serif;
+    font-size: 40px;
+    font-weight: 30px;
+    text-transform: uppercase;
+    text-shadow: 6px 1px 1px #606163;
+    margin-bottom: 0px;
+  }
+
+  #body div.bg-header div span {
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    padding: 2px;
+    text-shadow: 2px 1px 1px #558822;
+    margin-bottom: 0px;
+  }
+
+  #body div.section div {
+    margin: 0 auto;
+    max-width: none;
+    width: 90%;
+  }
+
+  #body div.section div p {
+    width: 100%;
+  }
+
+}
