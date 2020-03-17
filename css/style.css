@@ -357,25 +357,25 @@ a {
   background: none;
   border: .12rem solid #B6ADB0;
   color: #555;
-	cursor: pointer;
-	display: block;
-	font-size: 1rem;
-	font-weight: normal;
-	height: 2.5rem;
-	line-height: 2.25rem;
-	margin: 0;
-	padding: 0;
-	text-align: center;
-	text-transform: uppercase;
-	width: 8.81rem;
+  cursor: pointer;
+  display: block;
+  font-size: 1rem;
+  font-weight: normal;
+  height: 2.5rem;
+  line-height: 2.25rem;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  text-transform: uppercase;
+  width: 8.81rem;
 }
 
 #body div.side-wrapper .contact form input#submit:hover {
   background-color: #198B66;
   color: #fff;
-	border: none;
-	height: 2.5rem;
-	width: 8.81rem;
+  border: none;
+  height: 2.5rem;
+  width: 8.81rem;
 }
 /*end contact style*/
 
@@ -396,13 +396,13 @@ a {
 
 #footer div p, #footer div p a {
   color: #fff;
-	display: block;
-	font-size: .93rem;
-	font-weight: normal;
+  display: block;
+  font-size: .93rem;
+  font-weight: normal;
   margin: 0;
   padding: 0 0 .62rem;
-	text-align: center;
-	text-transform: none
+  text-align: center;
+  text-transform: none
 }
 
 #footer div.connect {
@@ -436,33 +436,33 @@ a {
   /* Break down menu items into vertical */
   #nav ul li {
     display: block;
-	  margin: 0;
-	  padding: 0;
-	  position: relative;
+    margin: 0;
+    padding: 0;
+    position: relative;
   }
 
   /* Toggle show/hide menu on checkbox click */
   #nav ul {
-		display: none;
-		left: 50%;
-		margin-left: -42%;
-		padding: 0;
-		top: 75%;
-		position: absolute;
-		width: 90%;
-		z-index: 1001;
+    display: none;
+    left: 50%;
+    margin-left: -42%;
+    padding: 0;
+    top: 75%;
+    position: absolute;
+    width: 90%;
+    z-index: 1001;
   }
 
   #nav input:checked ~ ul {
     display: block;
 	}
 
-	#nav {
-		display: block;
-	  height: 3.12rem;
-	  margin: 1.25rem auto 0;
-	  padding: 0 0 .5rem;
-	}
+  #nav {
+    display: block;
+    height: 3.12rem;
+    margin: 1.25rem auto 0;
+    padding: 0 0 .5rem;
+  }
 	
   #nav ul li a {
     background: #1D9D74;
@@ -492,13 +492,13 @@ a {
   }
 
   img {
-		max-width: 100%;
+    max-width: 100%;
   }
   
   #body {
-		margin: 0;
-		padding: 0;
-		width: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
   }
   
   #body > div {
@@ -529,48 +529,48 @@ a {
     width: 100%;
   }
   
-	#footer div {
-		margin: 0 auto;
-		width: 90%;
+  #footer div {
+    margin: 0 auto;
+    width: 90%;
   }
   
   #body div.side-wrapper {
-		margin: 0;
-		max-width: none;
-		overflow: hidden;
-		padding: 0 0 0;
-		width: 100%;
+    margin: 0;
+    max-width: none;
+    overflow: hidden;
+    padding: 0 0 0;
+    width: 100%;
   }
   
-	#body div.side-wrapper div.sidebar {
-		float: none;
-		margin: 10% auto 0;
-		padding: 2.25rem 0 2.13rem;
-		width: 90%;
+  #body div.side-wrapper div.sidebar {
+    float: none;
+    margin: 10% auto 0;
+    padding: 2.25rem 0 2.13rem;
+    width: 90%;
   }
   
-	#body div.side-wrapper div.contact {
-		float: none;
-		margin: 0 auto;
-		padding: 8% 0 0 0;
-		width: 90%;
+  #body div.side-wrapper div.contact {
+    float: none;
+    margin: 0 auto;
+    padding: 8% 0 0 0;
+    width: 90%;
   }
   
-	#body div.side-wrapper .contact form {
-		margin: 0;
-		overflow: hidden;
-		padding: 0 0 1.25rem 0;
-		width: 100%;
+  #body div.side-wrapper .contact form {
+    margin: 0;
+    overflow: hidden;
+    padding: 0 0 1.25rem 0;
+    width: 100%;
   }
   
   #body div.side-wrapper .contact form input, 
   #body div.side-wrapper .contact form textarea {
-		border-radius: 0;
-		margin: 0 auto .5rem;
-		width: 90%;
+    border-radius: 0;
+    margin: 0 auto .5rem;
+    width: 90%;
   }
   
-	#body div.side-wrapper .contact form input#submit {
+  #body div.side-wrapper .contact form input#submit {
     margin: 0 0 0 4%;
   }
   
