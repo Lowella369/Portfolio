@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   position: relative;
-  color: #2e2d2d;
+  color: #1D9D74;
   font-family: sans-serif;
   font-size: 1rem;
   font-weight: 300;
@@ -16,7 +16,7 @@ a {
 
 /*header*/
 #header {
-  background-color: #2e2d2d;
+  background-color: #1D9D74;
   margin: 0;
   padding: 0;
   position: relative;
@@ -40,7 +40,7 @@ a {
 #nav a.logo div {
   display: block;
   font-size: 3rem;
-  color: #2e2d2d;
+  color: #33FF33;
   margin: 0;
   width: auto;
   font-weight: 700;
@@ -124,7 +124,7 @@ a {
 }
 
 #body div.bg-header div {
-  background: #2e2d2d;
+  background: rgb(46, 45, 45);
   opacity: .4;
   left: 40%;
   display: flex;
@@ -275,7 +275,7 @@ a {
 }
 
 #body div.side-wrapper div.sidebar {
-  background-color: #2e2d2d;
+  background-color: #198B66;
   float: left;
   margin: 0 .62rem 0 2.5rem;
   padding: 3.12rem 0 2.12rem;
@@ -399,7 +399,7 @@ a:hover {
 }
 
 #body div.side-wrapper .contact form input#submit:hover {
-  background-color: #2e2d2d;
+  background-color: #198B66;
   color: #fff;
   border: none;
   height: 2.5rem;
@@ -409,7 +409,7 @@ a:hover {
 
 /*footer style*/
 #footer {
-  background-color: #2e2d2d;;
+  background-color: #1D9D74;;
   margin: 0;
   padding: 2.25rem .56rem 2.62rem;
 }
@@ -454,7 +454,7 @@ a:hover {
   #nav label {
     display: inline-block;
     color: #fff;
-    background: #2e2d2d;
+    background: #0c8b4c;
     font-style: normal;
     font-size: 1.2rem;
     padding: .94rem;
@@ -497,7 +497,7 @@ a:hover {
   }
 	
   #nav ul li a {
-    background: #2e2d2d;
+    background: #1D9D74;
     color: #fff;
     display: block;
     font-size: .93rem;
@@ -509,7 +509,7 @@ a:hover {
   }
 
   #nav ul li a:hover, #header ul li.active a {
-    background: #606163;
+    background: #5aaa9e;
     color: #fff;
   }
 
