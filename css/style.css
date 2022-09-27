@@ -351,6 +351,12 @@ a {
   color: #555;
 }
 
+.image {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
 a {
   text-decoration: none;
   color: #555;
@@ -559,6 +565,13 @@ a:hover {
 
   #body > div .article p {
     width: 100%;
+  }
+
+  .row {
+    background-color: rgba(250, 250, 250, 0.75);
+    border-bottom:solid;
+    border-width: 1px;
+    border: 1 solid 12px;
   }
   
   #footer div {
