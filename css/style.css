@@ -108,9 +108,7 @@ a {
 #body div.bg-header {
   display: flex;
   flex-direction: column;
-  margin: 0;
   overflow: hidden;
-  padding: 0;
   position: relative;
   width: 100%;
 }
@@ -188,10 +186,10 @@ a {
 }
 
 /*about page body style*/
-#body  div {
+/* #body  div {
   margin: 0 auto;
   padding: 0;
-}
+} */
 
 #body  div img {
   margin: 1.25rem 0 0;
@@ -351,6 +349,19 @@ a {
   color: #555;
 }
 
+.project-image {
+  padding: 8px;
+  border: 1px solid rgb(252, 250, 250);
+  box-shadow: 10px 10px 10px #999;
+}
+
+.portfolio-text {
+  background: transparent;
+  padding: 20px;
+  box-shadow: 10px 10px 10px #999;
+  height: 300px;
+}
+
 .image {
 	margin: 0px 0 10 02px;
   background: black;
@@ -396,6 +407,9 @@ a:hover {
 }
 
 .flex-container {
+  background: transparent;
+  padding: 20px;
+  box-shadow: 10px 10px 10px #999;
   background-color: rgba(250, 250, 250, 0.75);
   border-bottom:solid;
   border-width: 1px;
@@ -405,16 +419,21 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  height: 320px;
+}
+
+.flex-container .flex-child {
+  transition: 0.5s all ease-in-out;
+}
+
+.flex-container:hover .flex-child {
+  transform: scale(0.9);
 }
 
 .flex-child {
   flex: 1;
+  margin-right: 10px;
 }  
 
-.flex-child:first-child {
-  margin-right: 20px;
-} 
 
 #body div.side-wrapper .contact form input#submit {
   background: none;
